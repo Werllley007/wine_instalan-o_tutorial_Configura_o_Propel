@@ -128,6 +128,22 @@ gio set ~/Área\ de\ trabalho/Lattice\ Propel\ Builder\ 2025.1.desktop metadata:
 gio set ~/Área\ de\ trabalho/Lattice\ Propel\ 2025.1.desktop metadata::trusted true
 ```
 
+### Para o Diamond 3.14 e o Diamond Programmer 3.14, basta aplicar os mesmos passos ajustando os nomes dos arquivos .desktop.
+
+1. Dar permissão de execução
+   
+```bash
+chmod +x ~/Área\ de\ trabalho/Diamond\ 3.14.desktop
+chmod +x ~/Área\ de\ trabalho/Diamond\ Programmer\ 3.14.desktop
+```
+
+2. Marcar como confiáveis no Nautilus/GNOME
+3. 
+```bash
+gio set ~/Área\ de\ trabalho/Diamond\ 3.14.desktop metadata::trusted true
+gio set ~/Área\ de\ trabalho/Diamond\ Programmer\ 3.14.desktop metadata::trusted true
+```
+
 ## Executar em tela cheia
 
 Opção 1 — Configurar pelo Wine
